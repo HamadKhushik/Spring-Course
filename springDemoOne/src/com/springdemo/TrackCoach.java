@@ -10,6 +10,11 @@ public class TrackCoach implements Coach {
 		fortuneService = theFortuneService;
 	}
 	
+	// no-arg constructor
+	public TrackCoach() {
+		
+	}
+	
 	
 	@Override
 	public String getDailyWorkout() {
