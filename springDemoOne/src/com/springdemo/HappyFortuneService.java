@@ -1,5 +1,7 @@
 package com.springdemo;
 
+import java.util.Random;
+
 public class HappyFortuneService implements FortuneService {
 
 	@Override
